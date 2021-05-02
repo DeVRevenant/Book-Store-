@@ -11,6 +11,7 @@
 		2DC8B451263AE9C0005F425A /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B450263AE9C0005F425A /* BookModel.swift */; };
 		2DC8B453263AE9CB005F425A /* BooksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B452263AE9CB005F425A /* BooksCollectionViewCell.swift */; };
 		2DC8B455263AE9D2005F425A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B454263AE9D2005F425A /* NetworkManager.swift */; };
+		2DC8B464263B9089005F425A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC8B463263B9089005F425A /* DetailViewController.swift */; };
 		2DF752A726330F9100046588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF752A626330F9100046588 /* AppDelegate.swift */; };
 		2DF752A926330F9100046588 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF752A826330F9100046588 /* SceneDelegate.swift */; };
 		2DF752AE26330F9100046588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF752AC26330F9100046588 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		2DC8B450263AE9C0005F425A /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookModel.swift; path = "../../../../Downloads/Book-Store-/BookStore/BookStore/Model/BookModel.swift"; sourceTree = "<group>"; };
 		2DC8B452263AE9CB005F425A /* BooksCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksCollectionViewCell.swift; path = "../../../../Downloads/Book-Store-/BookStore/BookStore/View/BooksCollectionViewCell.swift"; sourceTree = "<group>"; };
 		2DC8B454263AE9D2005F425A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = "../../../../Downloads/Book-Store-/BookStore/BookStore/Service/NetworkManager.swift"; sourceTree = "<group>"; };
+		2DC8B463263B9089005F425A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2DF752A326330F9100046588 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF752A626330F9100046588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DF752A826330F9100046588 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2DC8B465263B9932005F425A /* ImageProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageProvider;
+			sourceTree = "<group>";
+		};
+		2DC8B4D4263C6E8E005F425A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		2DF7529A26330F9100046588 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,8 @@
 		2DF752A526330F9100046588 /* BookStore */ = {
 			isa = PBXGroup;
 			children = (
+				2DC8B4D4263C6E8E005F425A /* TabBar */,
+				2DC8B465263B9932005F425A /* ImageProvider */,
 				2DC8B44F263AE933005F425A /* View */,
 				2DC8B44D263AE8C2005F425A /* Model */,
 				2DC8B44C263AE8BD005F425A /* Service */,
@@ -96,6 +114,7 @@
 				2DF752AF26330F9200046588 /* Assets.xcassets */,
 				2DF752B126330F9200046588 /* LaunchScreen.storyboard */,
 				2DF752B426330F9200046588 /* Info.plist */,
+				2DC8B463263B9089005F425A /* DetailViewController.swift */,
 			);
 			path = BookStore;
 			sourceTree = "<group>";
@@ -176,6 +195,7 @@
 				2DC8B451263AE9C0005F425A /* BookModel.swift in Sources */,
 				2DC8B453263AE9CB005F425A /* BooksCollectionViewCell.swift in Sources */,
 				2DF752A926330F9100046588 /* SceneDelegate.swift in Sources */,
+				2DC8B464263B9089005F425A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
